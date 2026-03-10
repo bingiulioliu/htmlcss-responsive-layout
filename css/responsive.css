@@ -50,6 +50,11 @@ Mobile      Tablet      Desktop
     .ads {
         display: block;
     }
+    .presentation .clearfix img {
+        display: inline;
+        float: left;
+        margin-right: 10px;
+    }
 }  
 
 
