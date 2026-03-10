@@ -73,7 +73,17 @@ Mobile      Tablet      Desktop
         flex-direction: column;
     }
     .recipe-card {
-        position: relative;
+        display: flex;
     }
-    
+    .recipe-video {
+        flex-grow: 3;
+    }
+    .recipe-info {
+        flex-grow: 1;
+        justify-content: flex-start;
+    }
+    .quick-notes li {
+        margin-top: 5px;
+        margin-bottom: 0px;
+    }
 }
