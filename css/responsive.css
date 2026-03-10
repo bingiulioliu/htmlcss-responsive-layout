@@ -1,1 +1,32 @@
 /* Soluzione qui */
+
+/* ======================
+Breakpoint
+576px       768px       992px
+Mobile      Tablet      Desktop
+====================== */
+
+
+/* ======================
+    Mobile Large
+====================== */
+@media screen and (min-width: 576px) {
+    
+}
+
+
+
+/* ======================
+    Tablet 
+====================== */
+@media screen and (min-width: 769px) {
+    
+}
+
+
+/* ======================
+    Desktop 
+====================== */
+@media screen and (min-width: 993px) {
+    
+}
