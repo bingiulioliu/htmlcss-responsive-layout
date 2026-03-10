@@ -43,6 +43,9 @@ Mobile      Tablet      Desktop
         flex-basis: calc(100% / 3) - ((25*2) / 3);
         min-width: calc(100% / 4);
     }
+    .btn {
+        flex-grow: 1;
+    }
 }  
 
 
