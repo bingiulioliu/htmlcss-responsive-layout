@@ -11,7 +11,19 @@ Mobile      Tablet      Desktop
     Mobile Large
 ====================== */
 @media screen and (min-width: 576px) {
-    
+    .btn {
+        transition: flex-grow 0.5s ease-in-out;
+        flex-grow: 1;
+    }
+    .btn {
+        transition: flex-grow 0.5s ease-in-out;
+        flex-grow: 1;
+    }
+    .presentation .clearfix img {
+        display: inline;
+        float: left;
+        margin-right: 10px;
+    }
 }
 
 
@@ -45,18 +57,22 @@ Mobile      Tablet      Desktop
         flex-basis: calc(100% / 3) - ((25*2) / 3);
         min-width: calc(100% / 4);
     }
+    /*
     .btn {
         transition: flex-grow 0.5s ease-in-out;
         flex-grow: 1;
     }
+        */
     .ads {
         display: block;
     }
+    /*
     .presentation .clearfix img {
         display: inline;
         float: left;
         margin-right: 10px;
     }
+        */
 }  
 
 
@@ -76,9 +92,12 @@ Mobile      Tablet      Desktop
         display: flex;
     }
     .recipe-video {
-        flex-grow: 3;
+        transition: flex-grow 0.5s ease-in-out;
+        flex-grow: 4;
+        max-height: 500px;
     }
     .recipe-info {
+        transition: flex-grow 0.5s ease-in-out;
         flex-grow: 1;
         justify-content: flex-start;
     }
@@ -86,4 +105,7 @@ Mobile      Tablet      Desktop
         margin-top: 5px;
         margin-bottom: 0px;
     }
+    .social-networks .label {
+	    display: inline-block;
+}
 }
