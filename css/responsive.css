@@ -107,5 +107,21 @@ Mobile      Tablet      Desktop
     }
     .social-networks .label {
 	    display: inline-block;
-}
+    }
+    footer {
+        display: flex;
+        justify-content: space-between;
+    }
+    footer ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        gap: 5px;
+    }
+    footer address {
+        text-align: left;
+    }
+    footer li {
+        margin: 10px 0;
+    }
 }
