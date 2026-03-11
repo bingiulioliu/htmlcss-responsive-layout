@@ -15,10 +15,7 @@ Mobile      Tablet      Desktop
         transition: flex-grow 0.5s ease-in-out;
         flex-grow: 1;
     }
-    .btn {
-        transition: flex-grow 0.5s ease-in-out;
-        flex-grow: 1;
-    }
+
     .presentation .clearfix img {
         display: inline;
         float: left;
@@ -31,21 +28,25 @@ Mobile      Tablet      Desktop
 /* ======================
     Tablet 
 ====================== */
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
     #topbar {
         justify-content: left;
     }
+
     .container {
         transition: padding 0.5s ease-in-out;
         padding: 30px;
     }
+
     .recipe-origin {
-        display: inline-block;
+        display: inline;
     }
+
     .recipe-name {
         transition: font-size 0.5s ease-in-out;
         font-size: 1.7em;
     }
+
     ul {
         display: flex;
         flex-wrap: wrap;
@@ -53,10 +54,12 @@ Mobile      Tablet      Desktop
         gap: 25px;
         width: 100%;
     }
+
     ul li {
         flex-basis: calc(100% / 3) - ((25*2) / 3);
         min-width: calc(100% / 4);
     }
+
     /*
     .btn {
         transition: flex-grow 0.5s ease-in-out;
@@ -66,6 +69,7 @@ Mobile      Tablet      Desktop
     .ads {
         display: block;
     }
+
     /*
     .presentation .clearfix img {
         display: inline;
@@ -73,57 +77,88 @@ Mobile      Tablet      Desktop
         margin-right: 10px;
     }
         */
-}  
+}
 
 
 /* ======================
     Desktop 
 ====================== */
-@media screen and (min-width: 993px) {
+@media screen and (min-width: 992px) {
     .recipe-name {
         font-size: 2.5em;
     }
+
     ul {
         display: flex;
         flex-wrap: nowrap;
         flex-direction: column;
     }
+
     .recipe-card {
         display: flex;
     }
+
     .recipe-video iframe {
         aspect-ratio: 16/9;
     }
+
     .recipe-video {
         transition: flex-grow 0.5s ease-in-out;
         flex-grow: 3;
         max-height: 500px;
     }
+
     .recipe-info {
         transition: flex-grow 0.5s ease-in-out;
         flex-grow: 1;
         justify-content: flex-start;
     }
+
+    /* OPPURE
+    .recipe-card {
+        display: flex;
+        
+          .recipe-video iframe {
+            aspect-ratio: 16/9;
+        }
+        .recipe-video {
+            transition: flex-grow 0.5s ease-in-out;
+            flex-grow: 3;
+            max-height: 500px;
+        }
+        .recipe-info {
+            transition: flex-grow 0.5s ease-in-out;
+            flex-grow: 1;
+            justify-content: flex-start;
+        }  
+    }
+    */
+
     .quick-notes li {
         margin-top: 5px;
         margin-bottom: 0px;
     }
+
     .social-networks .label {
-	    display: inline-block;
+        display: inline-block;
     }
+
     footer {
         display: flex;
         justify-content: space-between;
     }
+
     footer ul {
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
         gap: 5px;
     }
+
     footer address {
         text-align: left;
     }
+
     footer li {
         margin: 10px 0;
     }
